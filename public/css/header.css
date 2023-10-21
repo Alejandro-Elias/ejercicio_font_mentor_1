@@ -1,0 +1,46 @@
+.body__header {
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body__header img {
+    /* width: 20%; */
+    padding: 125px 122px 75px;
+}
+
+.body__header h1 {
+    text-align: center;
+    padding: 0 38px;
+    font-size: 30px;
+    color: var(--Dark_Grayish);
+    font-weight: 600;
+}
+
+.body__header p {
+    text-align: center;
+    padding: 33px 30px 55px;
+    color: var(--Grayish_Blue);
+}
+
+.body__header button {
+    width: 312px;
+    height: 56px;
+    border-radius: 63px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.body__header--boton-cyan {
+    background-color: var(--Strong_Cyan);
+    margin-bottom: 24px;
+}
+
+.body__header--boton-blue {
+    background-color: var(--Light_Blue);
+}
+
+
+

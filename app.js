@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const PORT = 3030;
 
-app.use(express.statics(path.resolve(__dirname, "public")));
+app.use(express.static(path.resolve(__dirname, "public")));
 
 app.listen(3030, () => console.log(`Servido corriendo en http://localhost:${PORT}`));
 
