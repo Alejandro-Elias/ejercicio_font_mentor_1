@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .body__header img {
@@ -21,16 +22,9 @@
 
 .body__header p {
     text-align: center;
-    padding: 33px 30px 55px;
+    padding: 33px 25px 40px;
     color: var(--Grayish_Blue);
-}
-
-.body__header button {
-    width: 312px;
-    height: 56px;
-    border-radius: 63px;
-    color: white;
-    border-color: rgba(0, 0, 0, 0.2);
+    line-height: 25px;
 }
 
 .body__header--boton-cyan {
@@ -41,6 +35,3 @@
 .body__header--boton-blue {
     background-color: var(--Light_Blue);
 }
-
-
-

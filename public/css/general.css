@@ -13,8 +13,14 @@
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 17px;
 }
 
-body {
+body button {
+    width: 312px;
+    height: 56px;
+    border-radius: 63px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0.2);
     font-size: 18px;
 }
